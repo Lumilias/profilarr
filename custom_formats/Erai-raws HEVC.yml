@@ -1,0 +1,15 @@
+name: Erai-raws HEVC
+description: Match against HEVC releases from Erai-raws
+tags: []
+conditions:
+- name: Erai-raws
+  type: release_group
+  required: true
+  negate: false
+  pattern: Erai-Raws
+- name: HEVC
+  type: release_title
+  required: true
+  negate: false
+  pattern: HEVC
+tests: []

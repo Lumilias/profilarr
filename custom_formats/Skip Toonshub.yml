@@ -1,0 +1,10 @@
+name: Skip Toonshub
+description: ''
+tags: []
+conditions:
+- name: No Toonshub
+  type: release_group
+  required: true
+  negate: false
+  pattern: ToonsHub
+tests: []
